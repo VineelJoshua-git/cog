@@ -1,0 +1,6 @@
+"Field","Type","Null","Key","Default","Extra"
+"resource_id","int","NO","PRI","","auto_increment"
+"event_id","int","YES","MUL","",""
+"resource_type","enum('pdf','image','link')","YES","","",""
+"resource_url","varchar(255)","NO","","",""
+"uploaded_at","datetime","NO","","",""
